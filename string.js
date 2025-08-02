@@ -85,18 +85,18 @@
 // Task-5:
 // Capitalize Every first Letter of each word in a String
 
-let str = 'Capitalize Every first Letter of each word in a String';
-let str2 = str.split(' ');
-let result = '';
+// let str = 'Capitalize Every first Letter of each word in a String';
+// let str2 = str.split(' ');
+// let result = '';
 
-for(let i = 0; i <= str2.length-1; i++){
-    let word = str2[i];
-    result += word[0].toUpperCase() + word.slice(1);
-    if(i<str2.length -1){
-        result += " ";
-    }
-}
-console.log(result);
+// for(let i = 0; i <= str2.length-1; i++){
+//     let word = str2[i];
+//     result += word[0].toUpperCase() + word.slice(1);
+//     if(i<str2.length -1){
+//         result += " ";
+//     }
+// }
+// console.log(result);
 
 
 
